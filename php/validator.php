@@ -12,8 +12,8 @@
 				return;
 			}
 			
-			$conexao = mysql_connect("localhost","root","") or die("Usuário ou senha inválidos!!");
-			mysql_select_db("extensao",$conexao) or die("DB Inexistente");
+			$conexao = mysql_connect("mysql-shared-02.phpfog.com","root","") or die("Usuário ou senha inválidos!!");
+			mysql_select_db("monitoria_phpfogapp_com",$conexao) or die("DB Inexistente");
 			
 			if(isset($_POST['login']) && isset($_POST['password'])){
 				$login = $_POST['login'];

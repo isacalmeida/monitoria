@@ -1,4 +1,4 @@
-<?PHP
+﻿<?PHP
 	session_start();
 	if(!isset($_SESSION['start']) || $_SESSION['start'] == 0){
 		session_destroy();
@@ -186,7 +186,7 @@ hr{
 						}
 					}
 				?>
-				<h1>Bem Vindo! Testando</h1>
+				<h1>Bem Vindo!</h1>
 				<h4>Desenvolvido por: Isac Haran de Almeida<br>Contato: isac.almeida@uffs.edu.br</h4>
 			</div>
 			<hr>
